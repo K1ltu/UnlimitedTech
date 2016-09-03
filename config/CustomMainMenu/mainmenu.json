@@ -3,12 +3,22 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
+            "image" : "mainmenu:logo.png",
+            "posX" : 170,
+            "posY" : -255,
             "width" : 512,
             "height" : 512,
-            "alignment" : "top_center"
+            "alignment" : "left_center"
+        },
+        
+        "black":
+        {
+            "image" : "mainmenu:bar.png",
+            "posX" : 50,
+            "posY" : 0,
+            "width" : 100,
+            "height" : 1950,
+            "alignment" : "top_left"
         }
     },
     
@@ -17,11 +27,13 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : 55,
+            "posY" : -35,
+            "width" : 91,
             "height" : 20,
-            "action" : 
+			"texture" : "mainmenu:button1.png",
+            "alignment" : "left_center",
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
@@ -31,11 +43,13 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : 55,
+            "posY" : -10,
+            "width" : 91,
             "height" : 20,
-            "action" : 
+			"texture" : "mainmenu:button1.png",
+            "alignment" : "left_center",
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
@@ -45,10 +59,12 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "posX" : 55,
+            "posY" : 15,
+            "width" : 91,
             "height" : 20,
+			"texture" : "mainmenu:button1.png",
+            "alignment" : "left_center",
             "action" : 
             {
                 "type" : "openGui",
@@ -58,11 +74,15 @@
             
         "options":
         {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "text" : "",
+            "posX" : 53,
+            "posY" : -25,
+            "width" : 20,
             "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:buttonopt.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -72,11 +92,15 @@
         
         "quit":
         {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "text" : "",
+            "posX" : 128,
+            "posY" : -25,
+            "width" : 20,
             "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:buttonexit.png",
             "action" : 
             {
                 "type" : "quit"
@@ -86,10 +110,14 @@
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : 103,
+            "posY" : -25,
             "width" : 20,
             "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:buttonlang.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -100,57 +128,32 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : 78,
+            "posY" : -25,
             "width" : 20,
             "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "alignment" : "bottom_left",
+			"texture" : "mainmenu:buttonweb.png",
             "action" : 
             {
-                "type" : "refresh"
+                "type" : "openLink",
+				"link" : "https://mods.curse.com/modpacks/minecraft/250550-unlimitedtech"
             }
         }
     },
     
-    "labels":
+    "texts":
     {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right"
-        },
         
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
     },
     
     "other":
     {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
         "panorama":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
+            "images" : "mainmenu:nebula.png",
             "blur" : true,
-            "gradient" : true
+            "gradient" : false
         }
     }
 }

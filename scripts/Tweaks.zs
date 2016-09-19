@@ -57,9 +57,6 @@ recipes.addShaped(<minecraft:end_portal_frame>,[[<randomthings:stableEnderpearl>
 #Tools
 recipes.addShaped(<minecraft:diamond_chestplate>,[[<ore:gemDiamond>,<minecraft:golden_chestplate>,<ore:gemDiamond>],[<ore:gemDiamond>,<ore:gemDiamond>,<ore:gemDiamond>],[<ore:gemDiamond>,<ore:gemDiamond>,<ore:gemDiamond>]]);
 
-#plastic workaround
-#recipes.addShaped(<mekanism:PlasticBlock * 2>,[[<mekanism:Polyethene:2>,<mekanism:Polyethene:2>,null],[<mekanism:Polyethene:2>,<mekanism:Polyethene:2>,null],[null,null,null]]);
-
 #Deep Resonance
 recipes.removeShaped(<deepresonance:machine_frame>);
 recipes.addShaped(<deepresonance:machine_frame>,[[<ore:ingotSteel>,<deepresonance:resonating_plate>,<ore:ingotSteel>],[<deepresonance:resonating_plate>,<ic2:resource:13>,<deepresonance:resonating_plate>],[<ore:ingotSteel>,<deepresonance:resonating_plate>,<ore:ingotSteel>]]);
@@ -89,6 +86,7 @@ recipes.addShaped(<advgenerators:IronFrame>,[[null,<ore:plateSteel>,null],[<ore:
 #ender io
 recipes.removeShaped(<enderio:itemMachinePart>);
 recipes.addShaped(<enderio:itemMachinePart>,[[<ore:barsIron>,<ore:plateIron>,<ore:barsIron>],[<ore:plateIron>,<advgenerators:Controller>,<ore:plateIron>],[<ore:barsIron>,<ore:plateIron>,<ore:barsIron>]]);
+recipes.addShaped(<enderio:itemBrokenSpawner>,[[<enderio:blockDarkIronBars>,<enderio:blockDarkIronBars>,<enderio:blockDarkIronBars>],[<enderio:blockDarkIronBars>,<actuallyadditions:itemMisc:20>,<enderio:blockDarkIronBars>],[<enderio:blockDarkIronBars>,<enderio:blockDarkIronBars>,<enderio:blockDarkIronBars>]]);
 
 #solarFlux
 recipes.removeShaped(<solarfluxreborn:mirror>);

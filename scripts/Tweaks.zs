@@ -113,7 +113,7 @@ recipes.addShaped(<minecraft:cauldron>, [[<ore:ingotIron>, null, <minecraft:iron
 recipes.addShaped(<minecraft:heavy_weighted_pressure_plate>, [[<ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShaped(<appliedenergistics2:material:1>, [[<ore:gemCertusQuartz>]]);
 recipes.addShaped(<minecraft:glass_bottle> * 4, [[<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [null, <ore:blockGlassColorless>, null]]);
-recipes.addShaped(<thermalfoundation:tool.hammer_bronze>, [[<ore:ingotAnyBronze>, <ic2:ingot:1>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <ore:stickWood>, <ore:ingotAnyBronze>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_bronze>, [[<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <ore:stickWood>, <ore:ingotAnyBronze>], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<mekanismtools:BronzeBoots>, [[<ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>]]);
 recipes.addShaped(<mekanismtools:BronzeChestplate>, [[<ore:ingotBronze>, null, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
 recipes.addShaped(<mekanismtools:BronzeLeggings>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, null, <ore:ingotBronze>], [<ore:ingotBronze>, null, <ore:ingotBronze>]]);

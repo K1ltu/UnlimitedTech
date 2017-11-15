@@ -75,7 +75,6 @@ recipes.remove(<bigreactors:turbinehousing>);
 recipes.remove(<mekanismgenerators:Reactor:1>);
 recipes.remove(<bigreactors:reactorcasingcores>);
 recipes.remove(<bigreactors:reactorcasing>);
-
 recipes.addShapeless(<ic2:ingot:1> * 9, [<ore:blockBronze>]);
 recipes.addShapeless(<ic2:resource:5>, [<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>]);
 recipes.addShapeless(<immersiveengineering:metal:1> * 9, [<ore:blockAluminum>]);
@@ -138,27 +137,135 @@ recipes.addShaped(<minecraft:iron_shovel>, [[<ore:ingotIron>], [<ore:stickWood>]
 recipes.addShaped(<minecraft:iron_pickaxe>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<minecraft:iron_hoe>, [[<ore:ingotIron>, <ore:ingotIron>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:bucket>, [[<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
+recipes.addShapeless(<minecraft:paper> * 2, [<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]);
+recipes.addShaped(<minecraft:iron_bars> * 16, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped(<minecraft:minecart>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped(<ic2:forge_hammer>, [[<ore:ingotIron>, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:stickWood>, <ore:stickWood>], [<ore:ingotIron>, <ore:ingotIron>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_gold>, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, <ore:stickWood>, <ore:ingotGold>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_tin>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:stickWood>, <ore:ingotTin>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_copper>, [[<ore:ingotAnyCopper>, <ore:ingotAnyCopper>, <ore:ingotAnyCopper>], [<ore:ingotAnyCopper>, <ore:stickWood>, <ore:ingotAnyCopper>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_silver>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:stickWood>, <ore:ingotSilver>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_lead>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:stickWood>, <ore:ingotLead>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_steel>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_platinum>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, <ore:stickWood>, <ore:ingotPlatinum>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_iron>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_invar>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, <ore:stickWood>, <ore:ingotInvar>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>], [<ore:ingotElectrum>, <ore:stickWood>, <ore:ingotElectrum>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.hammer_nickel>, [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>], [<ore:ingotNickel>, <ore:stickWood>, <ore:ingotNickel>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<mekanism:ControlCircuit:3>, [[<ore:alloyUltimate>, <ore:circuitElite>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanism:ControlCircuit:2>, [[<ore:alloyElite>, <ore:circuitAdvanced>, <ore:alloyElite>]]);
+recipes.addShaped(<mekanism:ControlCircuit:1>, [[<ore:itemEnrichedAlloy>, <ore:circuitBasic>, <ore:itemEnrichedAlloy>]]);
+recipes.addShaped(<minecraft:shears>, [[null, <ore:ingotIron>], [<ore:ingotIron>, null]]);
+recipes.addShaped(<minecraft:paper> * 3, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
 
+#Thermal Foundation gear
 
-#recipes.addShaped(<>,[[<>,<>,<>],[<>,<>,<>],[<>,<>,<>]]);
+recipes.addShaped(<thermalfoundation:armor.plate_copper>, [[<ore:ingotCopper>, null, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_copper>, [[<ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_copper>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, null, <ore:ingotCopper>], [<ore:ingotCopper>, null, <ore:ingotCopper>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_copper>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, null, <ore:ingotCopper>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_copper>, [[<ore:ingotCopper>, <ore:ingotCopper>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_copper>, [[<ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_copper>, [[<ore:ingotCopper>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_copper>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_copper>, [[<ore:ingotCopper>], [<ore:ingotCopper>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_copper>, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, null, null], [null, <ore:ingotCopper>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_tin>, [[<ore:ingotTin>, null, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_tin>, [[<ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_tin>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, null, <ore:ingotTin>], [<ore:ingotTin>, null, <ore:ingotTin>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_tin>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, null, <ore:ingotTin>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_tin>, [[<ore:ingotTin>, <ore:ingotTin>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_tin>, [[<ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_tin>, [[<ore:ingotTin>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_tin>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_tin>, [[<ore:ingotTin>], [<ore:ingotTin>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_tin>, [[null, <ore:ingotTin>, null], [<ore:ingotTin>, null, null], [null, <ore:ingotTin>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_invar>, [[<ore:ingotInvar>, null, <ore:ingotInvar>], [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_invar>, [[<ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, <ore:ingotInvar>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_invar>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, null, <ore:ingotInvar>], [<ore:ingotInvar>, null, <ore:ingotInvar>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_invar>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, null, <ore:ingotInvar>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_invar>, [[<ore:ingotInvar>, <ore:ingotInvar>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_invar>, [[<ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_invar>, [[<ore:ingotInvar>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_invar>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_invar>, [[<ore:ingotInvar>], [<ore:ingotInvar>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_invar>, [[null, <ore:ingotInvar>, null], [<ore:ingotInvar>, null, null], [null, <ore:ingotInvar>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_bronze>, [[<ore:ingotBronze>, null, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_bronze>, [[<ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_bronze>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, null, <ore:ingotBronze>], [<ore:ingotBronze>, null, <ore:ingotBronze>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_bronze>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, null, <ore:ingotBronze>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_bronze>, [[<ore:ingotBronze>, <ore:ingotBronze>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_bronze>, [[<ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_bronze>, [[<ore:ingotBronze>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_bronze>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_bronze>, [[<ore:ingotBronze>], [<ore:ingotBronze>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_bronze>, [[null, <ore:ingotBronze>, null], [<ore:ingotBronze>, null, null], [null, <ore:ingotBronze>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_silver>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_silver>, [[<ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_silver>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_silver>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_silver>, [[<ore:ingotSilver>, <ore:ingotSilver>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_silver>, [[<ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_silver>, [[<ore:ingotSilver>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_silver>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_silver>, [[<ore:ingotSilver>], [<ore:ingotSilver>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_silver>, [[null, <ore:ingotSilver>, null], [<ore:ingotSilver>, null, null], [null, <ore:ingotSilver>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_lead>, [[<ore:ingotLead>, null, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_lead>, [[<ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_lead>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, null, <ore:ingotLead>], [<ore:ingotLead>, null, <ore:ingotLead>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_lead>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, null, <ore:ingotLead>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_lead>, [[<ore:ingotLead>, <ore:ingotLead>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_lead>, [[<ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_lead>, [[<ore:ingotLead>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_lead>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_lead>, [[<ore:ingotLead>], [<ore:ingotLead>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_lead>, [[null, <ore:ingotLead>, null], [<ore:ingotLead>, null, null], [null, <ore:ingotLead>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_nickel>, [[<ore:ingotNickel>, null, <ore:ingotNickel>], [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>], [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_nickel>, [[<ore:ingotNickel>, <ore:ingotNickel>], [<ore:ingotNickel>, <ore:ingotNickel>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_nickel>, [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>], [<ore:ingotNickel>, null, <ore:ingotNickel>], [<ore:ingotNickel>, null, <ore:ingotNickel>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_nickel>, [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>], [<ore:ingotNickel>, null, <ore:ingotNickel>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_nickel>, [[<ore:ingotNickel>, <ore:ingotNickel>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_nickel>, [[<ore:ingotNickel>, <ore:ingotNickel>], [<ore:ingotNickel>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_nickel>, [[<ore:ingotNickel>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_nickel>, [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_nickel>, [[<ore:ingotNickel>], [<ore:ingotNickel>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_nickel>, [[null, <ore:ingotNickel>, null], [<ore:ingotNickel>, null, null], [null, <ore:ingotNickel>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_platinum>, [[<ore:ingotPlatinum>, null, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_platinum>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_platinum>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_platinum>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_platinum>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_platinum>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_platinum>, [[<ore:ingotPlatinum>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_platinum>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_platinum>, [[<ore:ingotPlatinum>], [<ore:ingotPlatinum>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_platinum>, [[null, <ore:ingotPlatinum>, null], [<ore:ingotPlatinum>, null, null], [null, <ore:ingotPlatinum>, <ore:stickWood>]]);
 
+recipes.addShaped(<thermalfoundation:armor.plate_steel>, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_steel>, [[<ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_steel>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_steel>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_steel>, [[<ore:ingotSteel>, <ore:ingotSteel>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_steel>, [[<ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_steel>, [[<ore:ingotSteel>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_steel>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_steel>, [[<ore:ingotSteel>], [<ore:ingotSteel>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_steel>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, null], [null, <ore:ingotSteel>, <ore:stickWood>]]);
 
-
-
-
-
-
-
-
-
-
-
-
-
+recipes.addShaped(<thermalfoundation:armor.plate_electrum>, [[<ore:ingotElectrum>, null, <ore:ingotElectrum>], [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>], [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermalfoundation:armor.boots_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>], [<ore:ingotElectrum>, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermalfoundation:armor.legs_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>], [<ore:ingotElectrum>, null, <ore:ingotElectrum>], [<ore:ingotElectrum>, null, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermalfoundation:armor.helmet_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>], [<ore:ingotElectrum>, null, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermalfoundation:tool.hoe_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.axe_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>], [<ore:ingotElectrum>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.shovel_electrum>, [[<ore:ingotElectrum>], [<ore:stickWood>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.pickaxe_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:tool.sword_electrum>, [[<ore:ingotElectrum>], [<ore:ingotElectrum>], [<ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:tool.sickle_electrum>, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, null, null], [null, <ore:ingotElectrum>, <ore:stickWood>]]);

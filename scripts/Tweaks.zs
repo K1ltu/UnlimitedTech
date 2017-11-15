@@ -269,3 +269,9 @@ recipes.addShaped(<thermalfoundation:tool.shovel_electrum>, [[<ore:ingotElectrum
 recipes.addShaped(<thermalfoundation:tool.pickaxe_electrum>, [[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<thermalfoundation:tool.sword_electrum>, [[<ore:ingotElectrum>], [<ore:ingotElectrum>], [<ore:stickWood>]]);
 recipes.addShaped(<thermalfoundation:tool.sickle_electrum>, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, null, null], [null, <ore:ingotElectrum>, <ore:stickWood>]]);
+
+#Quantum Armor
+recipes.addShaped(<ic2:quantum_boots:26>, [[<ore:plateAlloyIridium>, <ic2:lapotron_crystal:*>, <ore:plateAlloyIridium>], [<ore:circuitMaster>, null, <ore:circuitMaster>], [<gregtech:gt.metaitem.01:32644>, null, <gregtech:gt.metaitem.01:32644>]]);
+recipes.addShaped(<ic2:quantum_leggings:26>, [[<ore:plateAlloyIridium>, <ic2:lapotron_crystal:*>, <ore:plateAlloyIridium>], [<ore:circuitMaster>, <gregtech:gt.metaitem.01:32604>, <ore:circuitMaster>], [<ore:plateAlloyIridium>, <gregtech:gt.metaitem.01:32604>, <ore:plateAlloyIridium>]]);
+recipes.addShaped(<ic2:quantum_chestplate:26>, [[<ore:plateAlloyIridium>, <ic2:lapotron_crystal:*>, <ore:plateAlloyIridium>], [<ore:circuitMaster>, <gravisuite:advancedJetpack:*>, <ore:circuitMaster>], [<gregtech:gt.metaitem.01:32673>, <gregtech:gt.60k_NaK_Coolantcell:*>, <gregtech:gt.metaitem.01:32673>]]);
+recipes.addShaped(<ic2:quantum_helmet:26>, [[<ore:plateAlloyIridium>, <ic2:lapotron_crystal:*>, <ore:plateAlloyIridium>], [<gregtech:gt.metaitem.01:32673>, <ic2:nightvision_goggles:*>, <gregtech:gt.metaitem.01:32673>], [<ore:plateAlloyIridium>, <gregtech:gt.metaitem.01:32613>, <ore:plateAlloyIridium>]]);

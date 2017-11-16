@@ -18,12 +18,12 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 16
+				"cluster-size": 18
 			},
 			"cluster-count": 2,
-			"chunk-chance": 12,
+			"chunk-chance": 8,
 			"min-height": 0,
-			"max-height": 20,
+			"max-height": 25,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -53,9 +53,9 @@
 				"cluster-size": 20
 			},
 			"cluster-count": 2,
-			"chunk-chance": 12,
+			"chunk-chance": 8,
 			"min-height": 10,
-			"max-height": 40,
+			"max-height": 50,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -77,7 +77,7 @@
 					"metadata": 4
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 24
+				"cluster-size": 28
 			},
 			"cluster-count": 10,
 			"chunk-chance": 4,

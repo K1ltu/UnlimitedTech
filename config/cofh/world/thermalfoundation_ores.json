@@ -164,14 +164,14 @@
       }
     },
     "copper_high": {
-      "distribution": "gaussian",
+      "distribution": "uniform",
       "generator": {
         "block": "thermalfoundation:ore",
         "material": "minecraft:stone",
         "cluster-size": 3
       },
-      "cluster-count": 1,
-      "chunk-chance": 3,
+      "cluster-count": 6,
+      "chunk-chance": 1,
       "min-height": 48,
       "max-height": 96,
       "retrogen": "true",

@@ -2,7 +2,7 @@
   "dependencies": "thermalfoundation",
   "populate": {
     "copper": {
-      "distribution": "gaussian",
+      "distribution": "uniform",
       "generator": {
         "block": "thermalfoundation:ore",
         "material": "minecraft:stone",
@@ -23,7 +23,7 @@
       }
     },
     "tin": {
-      "distribution": "gaussian",
+      "distribution": "uniform",
       "generator": {
         "block": {
           "name": "thermalfoundation:ore",
@@ -47,7 +47,7 @@
       }
     },
     "silver": {
-      "distribution": "gaussian",
+      "distribution": "uniform",
       "generator": {
         "block": [
           {
@@ -79,7 +79,7 @@
       }
     },
     "lead": {
-      "distribution": "gaussian",
+      "distribution": "uniform",
       "generator": {
         "block": [
           {
@@ -111,7 +111,7 @@
       }
     },
     "nickel": {
-      "distribution": "gaussian",
+      "distribution": "uniform",
       "generator": {
         "block": {
           "name": "thermalfoundation:ore",
@@ -135,7 +135,7 @@
       }
     },
     "copper_ocean": {
-      "distribution": "gaussian",
+      "distribution": "uniform",
       "generator": {
         "block": "thermalfoundation:ore",
         "material": "minecraft:stone",

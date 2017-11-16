@@ -110,17 +110,17 @@
       "generator": {
         "block": [
           {
-            "name": "gregtech:gt.blockores.114:7",
-            "metadata": 0,
+            "name": "gregtech:gt.blockores.114",
+            "metadata": 7,
             "weight": 30
           },
           {
-            "name": "gregtech:gt.blockores.70:7",
-            "metadata": 0,
+            "name": "gregtech:gt.blockores.70",
+            "metadata": 7,
             "weight": 35
           },
           {
-            "name": "gregtech:gt.blockores.68:7",
+            "name": "gregtech:gt.blockores.68",
             "metadata": 7,
             "weight": 35
           }

@@ -5,7 +5,7 @@
 
 		"copper": {
 			"distribution": "gaussian",
-			"generator": "large-vein" {
+			"generator": "large-vein",
 				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
 				"cluster-size": 48
@@ -27,7 +27,7 @@
 
 		"tin": {
 			"distribution": "gaussian",
-			"generator": "large-vein"  {
+			"generator": "large-vein",
 				"block": {
 					"name": "thermalfoundation:ore",
 					"metadata": 1
@@ -52,7 +52,7 @@
 
 		"silver": {
 			"distribution": "gaussian",
-			"generator": "large-vein"  {
+			"generator": "large-vein" ,
 				"block": [
 					{
 						"name": "thermalfoundation:ore",
@@ -85,7 +85,7 @@
 
 		"lead": {
 			"distribution": "gaussian",
-			"generator": "large-vein"  {
+			"generator": "large-vein",
 				"block": [
 					{
 						"name": "thermalfoundation:ore",
@@ -118,7 +118,7 @@
 
 		"nickel": {
 			"distribution": "gaussian",
-			"generator": "large-vein" {
+			"generator": "large-vein",
 				"block": {
 					"name": "thermalfoundation:ore",
 					"metadata": 5
@@ -143,7 +143,7 @@
 
 		"copper_ocean": {
 			"distribution": "gaussian",
-			"generator": "large-vein" {
+			"generator": "large-vein",
 				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
 				"cluster-size": 28
@@ -173,7 +173,7 @@
 
 		"copper_high": {
 			"distribution": "gaussian",
-			"generator": "large-vein" {
+			"generator": "large-vein",
 				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
 				"cluster-size": 3

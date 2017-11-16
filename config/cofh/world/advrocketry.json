@@ -41,7 +41,7 @@
       "retrogen": "true",
       "biomeRestriction": "none",
       "biomes": [],
-      "dimensionRestriction": "blacklist",
+      "dimensionRestriction": "whitelist",
       "dimensions": [
         113
       ]

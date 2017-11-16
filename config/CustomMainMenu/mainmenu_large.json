@@ -1,0 +1,159 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:logo.png",
+            "posX" : 170,
+            "posY" : -190,
+            "width" : 384,
+            "height" : 384,
+            "alignment" : "left_center"
+        },
+        
+        "black":
+        {
+            "image" : "mainmenu:bar.png",
+            "posX" : 50,
+            "posY" : 0,
+            "width" : 100,
+            "height" : 1950,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 55,
+            "posY" : -35,
+            "width" : 91,
+            "height" : 20,
+			"texture" : "mainmenu:button1.png",
+            "alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 55,
+            "posY" : -10,
+            "width" : 91,
+            "height" : 20,
+			"texture" : "mainmenu:button1.png",
+            "alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 55,
+            "posY" : 15,
+            "width" : 91,
+            "height" : 20,
+			"texture" : "mainmenu:button1.png",
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+            "posX" : 53,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:buttonopt.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "posX" : 128,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:buttonexit.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 103,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:buttonlang.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 78,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "bottom_left",
+			"texture" : "mainmenu:buttonweb.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://minecraft.curseforge.com/projects/unlimitedtech"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        
+    },
+    
+    "other":
+    {
+        "panorama":
+        {
+            "images" : "mainmenu:nebula.png",
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}

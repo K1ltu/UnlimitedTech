@@ -84,7 +84,7 @@
 		},
 
 		"lead": {
-			"distribution": "gaussian",,
+			"distribution": "gaussian",
 			"generator": {
 				"block": [
 					{

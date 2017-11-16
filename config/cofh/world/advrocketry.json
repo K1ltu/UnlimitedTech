@@ -1,35 +1,51 @@
 {
   "populate": {
-    "redstone_clathrate": {
-      "distribution": "uniform",
-      "generator": {
-        "block": [
-          {
-            "name": "thermalfoundation:ore_fluid",
-            "metadata": 2,
-            "weight": 90
-          },
-          {
-            "name": "thermalfoundation:fluid_redstone",
-            "weight": 10
-          }
-        ],
-        "material": "minecraft:stone",
-        "cluster-size": 16
+    "iron": {
+      "template": {
+        "type": "surface",
+        "generator": "spike",
+        "minHeight": 7,
+        "heightVariance": 4,
+        "sizeVariance": 4,
+        "positionVariance": 4,
+        "largeSpikes": "true",
+        "largeSpikeChance": 60,
+        "minLargeSpikeHeightGain": 10,
+        "largeSpikeHeightVariance": 30,
+        "largeSpikeFillerSize": 1
       },
-      "cluster-count": 2,
-      "chunk-chance": 12,
-      "min-height": 0,
-      "max-height": 20,
+      "block": [
+        {
+          "name": "iron_ore",
+          "weight": 80
+        },
+        {
+          "name": "gold_ore",
+          "weight": 20
+        }
+      ],
+      "material": [
+        "minecraft:stone",
+        "minecraft:grass",
+        "minecraft:dirt",
+        "minecraft:sand",
+        "minecraft:snow",
+        "minecraft:water",
+        "minecraft:air"
+      ],
+      "clusterSize": 1,
+      "numClusters": 4,
+      "minHeight": 0,
+      "chunkChance": 1,
+      "maxHeight": 80,
       "retrogen": "true",
-      "biome": "all",
-      "dimension": {
-        "restriction": "blacklist",
-        "value": [
-          -1,
-          1
-        ]
-      }
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionRestriction": "blacklist",
+      "dimensions": [
+        113
+      ]
     }
   }
 }
+

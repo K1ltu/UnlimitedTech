@@ -427,14 +427,14 @@
       "generator": {
         "block": [
           {
-            "name": "gregtech:gt.blockores.137",
-            "metadata": 7,
-            "weight": 55
+            "name": "ic2:resource",
+            "metadata": 4,
+            "weight": 35
           },
           {
             "name": "gregtech:gt.blockores.112",
             "metadata": 7,
-            "weight": 45
+            "weight": 65
           }
         ],
         "material": "minecraft:stone",

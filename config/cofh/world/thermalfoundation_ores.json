@@ -10,8 +10,8 @@
       },
       "cluster-count": 1,
       "chunk-chance": 2,
-      "min-height": 32,
-      "max-height": 36,
+      "min-height": 42,
+      "max-height": 58,
       "retrogen": "true",
       "biome": "all",
       "dimension": {
@@ -65,8 +65,8 @@
         "cluster-size": 58
       },
       "cluster-count": 1,
-      "chunk-chance": 6,
-      "min-height": 30,
+      "chunk-chance": 8,
+      "min-height": 43,
       "max-height": 68,
       "retrogen": "true",
       "biome": "all",
@@ -98,8 +98,8 @@
       },
       "cluster-count": 1,
       "chunk-chance": 3,
-      "min-height": 12,
-      "max-height": 38,
+      "min-height": 43,
+      "max-height": 68,
       "retrogen": "true",
       "biome": "all",
       "dimension": {
@@ -121,9 +121,33 @@
         "cluster-size": 32
       },
       "cluster-count": 1,
-      "chunk-chance": 4,
-      "min-height": 0,
-      "max-height": 30,
+      "chunk-chance": 5,
+      "min-height": 63,
+      "max-height": 75,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "iron-nickel_deposit": {
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "minecraft:iron_ore",
+          "metadata": 5
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 35
+      },
+      "cluster-count": 1,
+      "chunk-chance": 5,
+      "min-height": 62,
+      "max-height": 76,
       "retrogen": "true",
       "biome": "all",
       "dimension": {

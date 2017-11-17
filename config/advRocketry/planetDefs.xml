@@ -22,7 +22,6 @@
             </planet>
         </planet>
         <planet name="Vega 15" DIMID="101">
-            <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>0.8,0.89744776,0.0</skyColor>
             <gravitationalMultiplier>88</gravitationalMultiplier>
@@ -33,7 +32,6 @@
             <biomeIds>105</biomeIds>
         </planet>
         <planet name="Vega 8" DIMID="102" customIcon="gasgiantblue">
-            <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>nitrogen</gas>
             <gas>oxygen</gas>
@@ -49,7 +47,6 @@
     </star>
     <star name="Alpha Centauri" temp="200" x="150" y="250" numPlanets="0" numGasGiants="0">
         <planet name="Chiron" DIMID="103" customIcon="earthlike">
-            <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
@@ -59,7 +56,6 @@
             <atmosphereDensity>100</atmosphereDensity>
             <biomeIds>14</biomeIds>
             <planet name="Praxis" DIMID="105" customIcon="earthlike">
-                <isKnown>true</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
                 <skyColor>1.0,1.0,1.0</skyColor>
                 <gravitationalMultiplier>25</gravitationalMultiplier>
@@ -71,7 +67,6 @@
             </planet>
         </planet>
         <planet name="Alpha Centauri B" DIMID="112" customIcon="iceworld">
-            <isKnown>true</isKnown>
             <fogColor>0x3399ff</fogColor>
             <skyColor>0x3399ff</skyColor>
             <gravitationalMultiplier>45</gravitationalMultiplier>
@@ -84,7 +79,6 @@
     </star>
     <star name="Trappist-1" temp="20" x="300" y="-200" numPlanets="0" numGasGiants="0">
         <planet name="Trappist A" DIMID="108" customIcon="lava">
-            <isKnown>true</isKnown>
             <fogColor>0xcc6600</fogColor>
             <skyColor>0xcc6600</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
@@ -95,7 +89,6 @@
             <biomeIds>105</biomeIds>
         </planet>
         <planet name="Trappist B" DIMID="109" customIcon="earthlike">
-            <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
@@ -106,7 +99,6 @@
             <biomeIds>21,29,42,64,79,100,160</biomeIds>
         </planet>
         <planet name="Trappist C" DIMID="111" customIcon="gasgiantred">
-            <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>nitrogen</gas>
             <gas>oxygen</gas>
@@ -120,7 +112,6 @@
             <biomeIds>105</biomeIds>
         </planet>
         <planet name="Trappist D" DIMID="110" customIcon="waterworld">
-            <isKnown>true</isKnown>
             <fogColor>0x3399ff</fogColor>
             <skyColor>0x3399ff</skyColor>
             <gravitationalMultiplier>95</gravitationalMultiplier>
@@ -133,7 +124,6 @@
     </star>
     <star name="Keplar-90" temp="100" x="-200" y="80" numPlanets="0" numGasGiants="0">
         <planet name="Keplar 90A" DIMID="121" customIcon="moon">
-            <isKnown>false</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>16</gravitationalMultiplier>
@@ -144,7 +134,6 @@
             <biomeIds>103</biomeIds>
         </planet>
         <planet name="Keplar 90B" DIMID="118" customIcon="earthlike">
-            <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
@@ -155,7 +144,6 @@
             <biomeIds>165,166,167,37,38,39</biomeIds>
         </planet>
         <planet name="Keplar 90C" DIMID="119" customIcon="gasgiantred">
-            <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>nitrogen</gas>
             <gas>oxygen</gas>
@@ -169,7 +157,6 @@
             <biomeIds>105</biomeIds>
         </planet>
         <planet name="Keplar 90D" DIMID="120" customIcon="gasgiantblue">
-            <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>nitrogen</gas>
             <gas>oxygen</gas>
@@ -185,7 +172,6 @@
     </star>
     <star name="Keplar-62" temp="100" x="-220" y="95" numPlanets="0" numGasGiants="0">
         <planet name="Keplar 62A" DIMID="113" customIcon="earthlike">
-            <isKnown>true</isKnown>
             <fogColor>0xcc6600</fogColor>
             <skyColor>0xcc6600</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
@@ -196,7 +182,6 @@
             <biomeIds>51</biomeIds>
         </planet>
         <planet name="Keplar 62B" DIMID="114" customIcon="earthlike">
-            <isKnown>true</isKnown>
             <fogColor>0x1e7b1e</fogColor>
             <skyColor>0x1e7b1e</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
@@ -206,7 +191,6 @@
             <atmosphereDensity>165</atmosphereDensity>
             <biomeIds>89</biomeIds>
             <planet name="Moon" DIMID="117" customIcon="moon">
-                <isKnown>false</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
                 <skyColor>1.0,1.0,1.0</skyColor>
                 <gravitationalMultiplier>16</gravitationalMultiplier>
@@ -218,7 +202,6 @@
             </planet>
         </planet>
         <planet name="Keplar 62C" DIMID="115" customIcon="gasgiantred">
-            <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>nitrogen</gas>
             <gas>oxygen</gas>
@@ -232,7 +215,6 @@
             <biomeIds>105</biomeIds>
         </planet>
         <planet name="Keplar 62D" DIMID="116" customIcon="gasgiantblue">
-            <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <fogColor>0x3399ff</fogColor>
             <skyColor>0x3399ff</skyColor>
@@ -246,7 +228,6 @@
     </star>
     <star name="Wolf 359" temp="-200" x="-350" y="-250" numPlanets="0" numGasGiants="0">
         <planet name="Wolf 22" DIMID="106" customIcon="earthlike">
-            <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>110</gravitationalMultiplier>
@@ -257,7 +238,6 @@
             <biomeIds>2,17,63,130</biomeIds>
         </planet>
         <planet name="Wolf 12" DIMID="104" customIcon="lava">
-            <isKnown>true</isKnown>
             <fogColor>0xcc6600</fogColor>
             <skyColor>0xcc6600</skyColor>
             <gravitationalMultiplier>80</gravitationalMultiplier>
@@ -268,7 +248,6 @@
             <biomeIds>101</biomeIds>
         </planet>
         <planet name="Wolf 28" DIMID="107" customIcon="iceworld">
-            <isKnown>true</isKnown>
             <fogColor>0x3399ff</fogColor>
             <skyColor>0x3399ff</skyColor>
             <gravitationalMultiplier>45</gravitationalMultiplier>

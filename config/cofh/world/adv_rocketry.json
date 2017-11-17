@@ -1,0 +1,285 @@
+{
+  "populate": {
+    "redstone_pools": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "lake",
+        "block": [
+          {
+            "name": "thermalfoundation:fluid_redstone",
+            "weight": 10
+          }
+        ],
+        "outline-block": "minecraft:stone",
+        "material": "biomesoplenty:crag_rock",
+        "cluster-size": 40
+      },
+      "cluster-count": 1,
+      "chunk-chance": 12,
+      "min-height": 63,
+      "max-height": 64,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          113
+        ]
+      }
+    },
+    "pyrotheum_pools": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "lake",
+        "block": [
+          {
+            "name": "thermalfoundation:fluid_pyrotheum",
+            "weight": 10
+          }
+        ],
+        "outline-block": "minecraft:stone",
+        "material": "biomesoplenty:ash_block",
+        "cluster-size": 30
+      },
+      "cluster-count": 1,
+      "chunk-chance": 12,
+      "min-height": 63,
+      "max-height": 64,
+      "sparse": false,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          104
+        ]
+      }
+    },
+    "wolf12_spike_naquadah": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "spike",
+        "block": [
+          {
+            "name": "biomesoplenty:ash_block",
+            "weight": 80
+          },
+          {
+            "name": "gregtech:gt.blockores.54",
+            "metadata": 6,
+            "weight": 12
+          },
+          {
+            "name": "gregtech:gt.blockores.54",
+            "metadata": 13,
+            "weight": 6
+          },
+          {
+            "name": "gregtech:gt.blockores.56",
+            "metadata": 6,
+            "weight": 2
+          }
+        ],
+        "min-height": 12,
+        "size-variance": 2,
+        "height-variance": 8,
+        "large-spikes": false,
+        "material": [
+          {
+            "name": "biomesoplenty:ash_block"
+          },
+          {
+            "name": "minecraft:air"
+          }
+        ],
+        "cluster-size": 30
+      },
+      "cluster-count": 1,
+      "chunk-chance": 60,
+      "min-height": 63,
+      "max-height": 99,
+      "sparse": false,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          104
+        ]
+      }
+    },
+    "wolf12_spike_platinum": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "spike",
+        "block": [
+          {
+            "name": "biomesoplenty:ash_block",
+            "weight": 55
+          },
+          {
+            "name": "gregtech:gt.blockores.80",
+            "metadata": 6,
+            "weight": 30
+          },
+          {
+            "name": "gregtech:gt.blockores.12",
+            "metadata": 13,
+            "weight": 15
+          }
+        ],
+        "min-height": 12,
+        "size-variance": 2,
+        "height-variance": 8,
+        "large-spikes": false,
+        "material": [
+          {
+            "name": "biomesoplenty:ash_block"
+          },
+          {
+            "name": "minecraft:air"
+          }
+        ],
+        "cluster-size": 30
+      },
+      "cluster-count": 1,
+      "chunk-chance": 35,
+      "min-height": 63,
+      "max-height": 99,
+      "sparse": false,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          104
+        ]
+      }
+    },
+    "wolf12_spike_certus": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "spike",
+        "block": [
+          {
+            "name": "biomesoplenty:ash_block",
+            "weight": 55
+          },
+          {
+            "name": "gregtech:gt.blockores.32",
+            "metadata": 6,
+            "weight": 30
+          },
+          {
+            "name": "gregtech:gt.blockores.62",
+            "metadata": 6,
+            "weight": 15
+          }
+        ],
+        "min-height": 12,
+        "size-variance": 2,
+        "height-variance": 8,
+        "large-spikes": false,
+        "material": [
+          {
+            "name": "biomesoplenty:ash_block"
+          },
+          {
+            "name": "minecraft:air"
+          }
+        ],
+        "cluster-size": 30
+      },
+      "cluster-count": 1,
+      "chunk-chance": 15,
+      "min-height": 63,
+      "max-height": 99,
+      "sparse": false,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          104
+        ]
+      }
+    },
+    "wolf12_spike_uranium": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "spike",
+        "block": [
+          {
+            "name": "biomesoplenty:ash_block",
+            "weight": 55
+          },
+          {
+            "name": "gregtech:gt.blockores.22",
+            "metadata": 13,
+            "weight": 30
+          },
+          {
+            "name": "gregtech:gt.blockores.16",
+            "metadata": 13,
+            "weight": 15
+          }
+        ],
+        "min-height": 12,
+        "size-variance": 2,
+        "height-variance": 8,
+        "large-spikes": false,
+        "material": [
+          {
+            "name": "biomesoplenty:ash_block"
+          },
+          {
+            "name": "minecraft:air"
+          }
+        ],
+        "cluster-size": 30
+      },
+      "cluster-count": 1,
+      "chunk-chance": 15,
+      "min-height": 63,
+      "max-height": 99,
+      "sparse": false,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          104
+        ]
+      }
+    },
+    "cryotheum_pools": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "lake",
+        "block": [
+          {
+            "name": "thermalfoundation:fluid_cryotheum",
+            "weight": 10
+          }
+        ],
+        "outline-block": "biomesoplenty:hard_ice",
+        "material": "minecraft:ice",
+        "cluster-size": 30
+      },
+      "cluster-count": 1,
+      "chunk-chance": 12,
+      "min-height": 63,
+      "max-height": 64,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          107,
+          112
+        ]
+      }
+    }
+  }
+}
+

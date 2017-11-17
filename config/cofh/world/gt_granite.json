@@ -1,0 +1,63 @@
+{
+  "populate": {
+    "red_granite": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": [
+          {
+            "name": "gregtech:gt.blockgranites",
+            "metadata": 8,
+            "weight": 100
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 384
+      },
+      "cluster-count": 2,
+      "chunk-chance": 3,
+      "sparse": false,
+      "min-height": 30,
+      "max-height": 170,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "black_granite": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": [
+          {
+            "name": "gregtech:gt.blockgranites",
+            "metadata": 0,
+            "weight": 100
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 384
+      },
+      "cluster-count": 2,
+      "chunk-chance": 3,
+      "sparse": false,
+      "min-height": 30,
+      "max-height": 170,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    }
+  }
+}
+

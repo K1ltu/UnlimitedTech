@@ -134,12 +134,12 @@
         ]
       }
     },
-    "iron-nickel_deposit": {
+    "iron_nickel_deposit": {
       "distribution": "uniform",
       "generator": {
         "block": {
           "name": "minecraft:iron_ore",
-          "metadata": 5
+          "metadata": 1
         },
         "material": "minecraft:stone",
         "cluster-size": 35

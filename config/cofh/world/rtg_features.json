@@ -1,0 +1,142 @@
+{
+  "populate": {
+    "mountain_coal": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": [
+          {
+            "name": "gregtech:gt.blockores.116",
+            "metadata": 0,
+            "weight": 80
+          },
+          {
+            "name": "coal_ore",
+            "metadata": 0,
+            "weight": 20
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 640
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1,
+      "sparse": false,
+      "min-height": 120,
+      "max-height": 200,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "mountain_gold": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": [
+          {
+            "name": "thermalfoundation:ore",
+            "metadata": 2,
+            "weight": 70
+          },
+          {
+            "name": "gold_ore",
+            "metadata": 0,
+            "weight": 30
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 150
+      },
+      "cluster-count": 1,
+      "chunk-chance": 12,
+      "sparse": true,
+      "min-height": 60,
+      "max-height": 90,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "mountain_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": [
+          {
+            "name": "thermalfoundation:ore",
+            "metadata": 1,
+            "weight": 100
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 150
+      },
+      "cluster-count": 1,
+      "chunk-chance": 12,
+      "sparse": true,
+      "min-height": 90,
+      "max-height": 140,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "mountain_quartz": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": [
+          {
+            "name": "gregtech:gt.blockores.62",
+            "metadata": 0,
+            "weight": 45
+          },
+          {
+            "name": "gregtech:gt.blockores.32",
+            "metadata": 0,
+            "weight": 25
+          },
+          {
+            "name": "gregtech:gt.blockores.56",
+            "metadata": 7,
+            "weight": 30
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 150
+      },
+      "cluster-count": 1,
+      "chunk-chance": 5,
+      "sparse": true,
+      "min-height": 80,
+      "max-height": 150,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    }
+
+  }
+}
+

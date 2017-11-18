@@ -139,7 +139,6 @@
       "generator": {
         "block": {
           "name": "minecraft:iron_ore",
-          "metadata": 1
         },
         "material": "minecraft:stone",
         "cluster-size": 35

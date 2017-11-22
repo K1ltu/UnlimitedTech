@@ -3,5 +3,7 @@ Entries in this file take precedence over the values in the core file
 -->
 
 <OreDictionaryPreferences>
-
+<preference oreDictionary="gravel" >
+    <itemStack modID="minecraft" itemName="gravel" itemMeta="0" />
+  </preference>
 </OreDictionaryPreferences>

@@ -1,3 +1,22 @@
+#removals
+recipes.remove(<malisisdoors:rustyHatch>);
+recipes.remove(<extrautils2:itembuilderswand>);
+recipes.remove(<extrautils2:itembuilderswand>);
+recipes.remove(<chisel:chisel_iron>);
+recipes.remove(<gregtech:gt.metaitem.01:2535> * 9);
+recipes.remove(<minecraft:coal> * 9);
+recipes.remove(<railcraft:brick_quarried:2>);
+recipes.remove(<pressure:TankWall>);
+recipes.remove(<pressure:input>);
+recipes.remove(<pressure:output>);
+recipes.remove(<pressure:pump>);
+recipes.remove(<pressure:pipe>);
+recipes.remove(<mekanism:BasicBlock:8>);
+recipes.remove(<bigreactors:turbinehousing>);
+recipes.remove(<mekanismgenerators:Reactor:1>);
+recipes.remove(<bigreactors:reactorcasingcores>);
+recipes.remove(<bigreactors:reactorcasing>);
+
 #Chainmail armor
 recipes.addShaped(<minecraft:chainmail_leggings>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<minecraft:leather_leggings>,<ore:ingotSteel>],[<ore:ingotSteel>,null,<ore:ingotSteel>]]);
 recipes.addShaped(<minecraft:chainmail_boots>,[[null,null,null],[<ore:ingotSteel>,<minecraft:leather_boots>,<ore:ingotSteel>],[<ore:ingotSteel>,null,<ore:ingotSteel>]]);
@@ -64,17 +83,11 @@ recipes.addShaped(<enderio:itemBrokenSpawner>,[[<enderio:blockDarkIronBars>,<end
 recipes.removeShaped(<forestry:sturdyMachine>);
 recipes.addShaped(<forestry:sturdyMachine>,[[<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>],[<ore:plateBronze>,null,<ore:plateBronze>],[<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>]]);
 
+#Furnace
+furnace.addRecipe(<craftingitems:crudeSilicon>, <craftingitems:clayMoldSilicon>, 0.15);
+furnace.addRecipe(<craftingitems:wireCopper>, <craftingitems:clayMoldWire>, 0.15);
+
 #UT
-recipes.remove(<pressure:TankWall>);
-recipes.remove(<pressure:input>);
-recipes.remove(<pressure:output>);
-recipes.remove(<pressure:pump>);
-recipes.remove(<pressure:pipe>);
-recipes.remove(<mekanism:BasicBlock:8>);
-recipes.remove(<bigreactors:turbinehousing>);
-recipes.remove(<mekanismgenerators:Reactor:1>);
-recipes.remove(<bigreactors:reactorcasingcores>);
-recipes.remove(<bigreactors:reactorcasing>);
 recipes.addShapeless(<ic2:ingot:1> * 9, [<ore:blockBronze>]);
 recipes.addShapeless(<ic2:resource:5>, [<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>]);
 recipes.addShapeless(<immersiveengineering:metal:1> * 9, [<ore:blockAluminum>]);
@@ -275,3 +288,30 @@ recipes.addShaped(<ic2:quantum_boots:26>, [[<ore:plateAlloyIridium>, <ic2:lapotr
 recipes.addShaped(<ic2:quantum_leggings:26>, [[<ore:plateAlloyIridium>, <ic2:lapotron_crystal:*>, <ore:plateAlloyIridium>], [<ore:circuitMaster>, <gregtech:gt.metaitem.01:32604>, <ore:circuitMaster>], [<ore:plateAlloyIridium>, <gregtech:gt.metaitem.01:32604>, <ore:plateAlloyIridium>]]);
 recipes.addShaped(<ic2:quantum_chestplate:26>, [[<ore:plateAlloyIridium>, <ic2:lapotron_crystal:*>, <ore:plateAlloyIridium>], [<ore:circuitMaster>, <gravisuite:advancedJetpack:*>, <ore:circuitMaster>], [<gregtech:gt.metaitem.01:32673>, <gregtech:gt.60k_NaK_Coolantcell:*>, <gregtech:gt.metaitem.01:32673>]]);
 recipes.addShaped(<ic2:quantum_helmet:26>, [[<ore:plateAlloyIridium>, <ic2:lapotron_crystal:*>, <ore:plateAlloyIridium>], [<gregtech:gt.metaitem.01:32673>, <ic2:nightvision_goggles:*>, <gregtech:gt.metaitem.01:32673>], [<ore:plateAlloyIridium>, <gregtech:gt.metaitem.01:32613>, <ore:plateAlloyIridium>]]);
+recipes.addShapeless(<libvulpes:productdust:7>, [<ore:dustRutile>]);
+recipes.addShapeless(<minecraft:coal_block>, [<ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>]);
+recipes.addShapeless(<minecraft:coal> * 9, [<ore:blockCoal>]);
+
+recipes.addShaped(<chisel:chisel_iron>, [[null, <ore:ingotIron>], [<ore:stickWood>, null]]);
+recipes.addShaped(<railcraft:brick_quarried:2> * 4, [[<railcraft:generic:9>, <railcraft:generic:9>], [<railcraft:generic:9>, <railcraft:generic:9>]]);
+recipes.addShaped(<minecraft:light_weighted_pressure_plate>, [[<ore:ingotGold>, <ore:ingotGold>]]);
+recipes.addShaped(<gregtech:gt.metaitem.01:8516> * 4, [[<appliedenergistics2:quartz_block>]]);
+recipes.addShaped(<mekanismtools:SteelPaxel>, [[<thermalfoundation:tool.axe_steel>, <thermalfoundation:tool.pickaxe_steel>, <thermalfoundation:tool.shovel_steel>], [null, <ore:ingotIron>, null], [null, <ore:ingotIron>, null]]);
+recipes.addShaped(<enderio:itemLiquidConduit> * 8, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+
+recipes.addShaped(<craftingitems:titaniumPlating> * 32, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>], [<ore:plateTitanium>, <ore:frameGtIron>, <ore:plateTitanium>], [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
+recipes.addShaped(<craftingitems:tinPlating> * 32, [[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>], [<ore:plateTin>, <ore:frameGtIron>, <ore:plateTin>], [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
+recipes.addShaped(<craftingitems:steelPlating> * 32, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:frameGtIron>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<craftingitems:nickelPlating> * 32, [[<ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>], [<ore:plateNickel>, <ore:frameGtIron>, <ore:plateNickel>], [<ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>]]);
+recipes.addShaped(<craftingitems:iridiumPlating> * 32, [[<ore:plateIridium>, <ore:plateIridium>, <ore:plateIridium>], [<ore:plateIridium>, <ore:frameGtIron>, <ore:plateIridium>], [<ore:plateIridium>, <ore:plateIridium>, <ore:plateIridium>]]);
+recipes.addShaped(<craftingitems:copperPlating> * 32, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:plateCopper>, <ore:frameGtIron>, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+recipes.addShaped(<craftingitems:goldPlating> * 32, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <ore:frameGtIron>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+recipes.addShaped(<craftingitems:aluminumPlating> * 32, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:frameGtIron>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
+recipes.addShaped(<gregtech:gt.blockmachines:4128> * 2, [[<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>], [<ore:stickAnyIron>, null, <ore:stickAnyIron>], [<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>]]);
+recipes.addShaped(<craftingitems:boardTier1> * 2, [[<craftingitems:transistor>, <craftingitems:chipBasic>, <craftingitems:transistor>], [<craftingitems:transistor>, <craftingitems:boardEtched>, <craftingitems:transistor>], [<ore:wireCopper>, <craftingitems:chipBasic>, <ore:wireCopper>]]);
+recipes.addShaped(<craftingitems:boardEtched>, [[<minecraft:clay_ball>, <minecraft:gunpowder>], [<craftingitems:copperFoil>, <craftingitems:copperFoil>]]);
+recipes.addShaped(<craftingitems:chipBasic>, [[null, <ore:itemRubber>, null], [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>], [<ore:nuggetSilicon>, <ore:nuggetSilicon>, <ore:nuggetSilicon>]]);
+recipes.addShaped(<craftingitems:transistor>, [[null, <ore:itemRubber>, null], [<minecraft:paper>, <ore:nuggetSilicon>, <ore:paperEmpty>], [null, <ore:wireCopper>, null]]);
+recipes.addShaped(<craftingitems:copperFoil> * 2, [[<ore:slabStone>], [<ore:ingotCopper>], [<ore:slabStone>]]);
+recipes.addShaped(<craftingitems:wireCopper>, [[<craftingitems:clayMoldWire>]]);
+recipes.addShaped(<craftingitems:crudeSilicon>, [[<craftingitems:clayMoldSilicon>]]);

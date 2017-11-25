@@ -1,0 +1,343 @@
+{
+  "populate": {
+    "ore_mix_cinnabar": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "gregtech:gt.blockores.76",
+            "metadata": 8,
+            "weight": 20
+          },
+          {
+            "name": "gregtech:gt.blockores.100",
+            "metadata": 1,
+            "weight": 10
+          },
+          {
+            "name": "gregtech:gt.blockores.120",
+            "metadata": 1,
+            "weight": 50
+          },
+          {
+            "name": "minecraft:netherrack",
+            "weight": 20
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 128
+      },
+      "cluster-count": 2,
+      "chunk-chance": 6,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_magnetite": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "gregtech:gt.blockores.4",
+            "metadata": 8,
+            "weight": 25
+          },
+          {
+            "name": "gregtech:gt.blockores.92",
+            "metadata": 1,
+            "weight": 40
+          },
+          {
+            "name": "gregtech:gt.blockores.130",
+            "metadata": 8,
+            "weight": 35
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 60
+      },
+      "cluster-count": 1,
+      "chunk-chance": 5,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "gregtech:gt.blockores.6",
+            "metadata": 8,
+            "weight": 25
+          },
+          {
+            "name": "gregtech:gt.blockores.68",
+            "metadata": 8,
+            "weight": 40
+          },
+          {
+            "name": "gregtech:gt.blockores.96",
+            "metadata": 1,
+            "weight": 35
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 60
+      },
+      "cluster-count": 1,
+      "chunk-chance": 5,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_quartz": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "minecraft:quartz_ore",
+            "metadata": 0,
+            "weight": 35
+          },
+          {
+            "name": "gregtech:gt.blockores.62",
+            "metadata": 1,
+            "weight": 35
+          },
+          {
+            "name": "gregtech:gt.blockores.32",
+            "metadata": 1,
+            "weight": 30
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 48
+      },
+      "cluster-count": 1,
+      "chunk-chance": 3,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_uranium": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "minecraft:netherrack",
+            "metadata": 0,
+            "weight": 50
+          },
+          {
+            "name": "gregtech:gt.blockores.138",
+            "metadata": 8,
+            "weight": 25
+          },
+          {
+            "name": "gregtech:gt.blockores.22",
+            "metadata": 8,
+            "weight": 25
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 48
+      },
+      "cluster-count": 1,
+      "chunk-chance": 8,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_plat_pall": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "minecraft:netherrack",
+            "metadata": 0,
+            "weight": 80
+          },
+          {
+            "name": "gregtech:gt.blockores.14",
+            "metadata": 8,
+            "weight": 10
+          },
+          {
+            "name": "gregtech:gt.blockores.16",
+            "metadata": 1,
+            "weight": 10
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 32
+      },
+      "cluster-count": 1,
+      "chunk-chance": 5,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_sulfur": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "minecraft:netherrack",
+            "metadata": 0,
+            "weight": 40
+          },
+          {
+            "name": "gregtech:gt.blockores.126",
+            "metadata": 8,
+            "weight": 30
+          },
+          {
+            "name": "gregtech:gt.blockores.18",
+            "metadata": 8,
+            "weight": 30
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 32
+      },
+      "cluster-count": 1,
+      "chunk-chance": 2,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_oil": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "minecraft:netherrack",
+            "metadata": 0,
+            "weight": 60
+          },
+          {
+            "name": "gregtech:gt.blockores.58",
+            "metadata": 1,
+            "weight": 40
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 32
+      },
+      "cluster-count": 1,
+      "chunk-chance": 2,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_naquadah": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "gregtech:gt.blockores.55",
+            "metadata": 1,
+            "weight": 100
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 2
+      },
+      "cluster-count": 1,
+      "chunk-chance": 2,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ore_mix_diamond": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "gregtech:gt.blockores.82",
+            "metadata": 1,
+            "weight": 100
+          }
+        ],
+        "material": "minecraft:netherrack",
+        "cluster-size": 4
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1,
+      "min-height": 12,
+      "max-height": 116,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    }
+  }
+}

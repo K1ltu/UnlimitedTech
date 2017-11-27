@@ -16,6 +16,10 @@ recipes.remove(<bigreactors:turbinehousing>);
 recipes.remove(<mekanismgenerators:Reactor:1>);
 recipes.remove(<bigreactors:reactorcasingcores>);
 recipes.remove(<bigreactors:reactorcasing>);
+recipes.remove(<astralsorcery:BlockMarble:1> * 4);
+recipes.remove(<minecraft:ender_pearl>);
+recipes.remove(<malisisdoors:rustyHandle>);
+recipes.remove(<opencomputers:material:5>);
 
 #Chainmail armor
 recipes.addShaped(<minecraft:chainmail_leggings>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<minecraft:leather_leggings>,<ore:ingotSteel>],[<ore:ingotSteel>,null,<ore:ingotSteel>]]);
@@ -315,3 +319,13 @@ recipes.addShaped(<craftingitems:transistor>, [[null, <ore:itemRubber>, null], [
 recipes.addShaped(<craftingitems:copperFoil> * 2, [[<ore:slabStone>], [<ore:ingotCopper>], [<ore:slabStone>]]);
 recipes.addShaped(<craftingitems:wireCopper>, [[<craftingitems:clayMoldWire>]]);
 recipes.addShaped(<craftingitems:crudeSilicon>, [[<craftingitems:clayMoldSilicon>]]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:2532>, [<ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>]);
+recipes.addShapeless(<minecraft:diamond_block>, [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]);
+recipes.addShaped(<chisel:marbleextra:7> * 4, [[<gregtech:gt.blockstones>, <gregtech:gt.blockstones>], [<gregtech:gt.blockstones>, <gregtech:gt.blockstones>]]);
+recipes.addShaped(<gregtech:gt.blockstones> * 4, [[<chisel:marbleextra:7>, <chisel:marbleextra:7>], [<chisel:marbleextra:7>, <chisel:marbleextra:7>]]);
+recipes.addShaped(<minecraft:ender_pearl>, [[null, <enderzoo:enderFragment>, null], [<enderzoo:enderFragment>, <enderzoo:enderFragment>, <enderzoo:enderFragment>], [null, <enderzoo:enderFragment>, null]]);
+recipes.addShaped(<minecraft:tnt>, [[<ore:sand>, <ore:gunpowder>, <ore:sand>], [<ore:gunpowder>, <ore:sand>, <ore:gunpowder>], [<ore:sand>, <ore:gunpowder>, <ore:sand>]]);
+recipes.addShaped(<minefactoryreloaded:plastic_sheet> * 4, [[<ore:dustPlastic>, <ore:dustPlastic>], [<ore:dustPlastic>, <ore:dustPlastic>]]);
+recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>]]);
+recipes.addShaped(<advancedrocketry:launchpad> * 7, [[<ore:concrete>, <ore:concrete>, <ore:concrete>], [<ore:dyeYellow>, <ore:concrete>, <ore:dyeBlack>], [<ore:concrete>, <ore:concrete>, <ore:concrete>]]);
+recipes.addShaped(<opencomputers:material:5>, [[null, <ore:dustSulfur>, null], [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>], [null, <ore:oc:materialCircuitBoard>, null]]);

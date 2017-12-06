@@ -329,3 +329,20 @@ recipes.addShaped(<minefactoryreloaded:plastic_sheet> * 4, [[<ore:dustPlastic>, 
 recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>]]);
 recipes.addShaped(<advancedrocketry:launchpad> * 7, [[<ore:concrete>, <ore:concrete>, <ore:concrete>], [<ore:dyeYellow>, <ore:concrete>, <ore:dyeBlack>], [<ore:concrete>, <ore:concrete>, <ore:concrete>]]);
 recipes.addShaped(<opencomputers:material:5>, [[null, <ore:dustSulfur>, null], [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>], [null, <ore:oc:materialCircuitBoard>, null]]);
+
+recipes.addShapeless(<gregtech:gt.metaitem.01:2357> * 4, [<ore:dustVanadium>, <ore:dustVanadium>, <ore:dustVanadium>, <ore:dustGallium>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:2316> * 2, [<ore:dustSteel>, <ore:dustTungsten>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:11028> * 9, [<ore:blockTitanium>]);
+recipes.addShapeless(<minecraft:dye:4> * 9, [<ore:blockLapis>]);
+recipes.addShapeless(<minecraft:lapis_block>, [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]);
+
+recipes.addShaped(<gregtech:gt.blockmachines:66>, [[<gregtech:gt.blockmachines:16>], [<ore:blockGlassColorless>]]);
+recipes.addShaped(<gregtech:gt.blockmachines:56>, [[<ore:blockGlassColorless>], [<gregtech:gt.blockmachines:16>]]);
+recipes.addShaped(<craftingitems:aluminumPlating> * 32, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:frameGtIron>, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<gregtech:gt.metaitem.01:11020> * 2, [[<libvulpes:productingot:3>, <libvulpes:productingot:3>]]);
+recipes.addShaped(<gregtech:gt.metaitem.01:11020>, [[<libvulpes:productingot:3>]]);
+recipes.addShaped(<ic2:crafting:2>, [[<ore:circuitAdvanced>]]);
+recipes.addShaped(<bigreactors:reactorrednetport>, [[<bigreactors:reactorcasing>, <ore:cableRedNet>, <bigreactors:reactorcasing>], [<ore:cableRedNet>, <ore:ingotGold>, <ore:cableRedNet>], [<bigreactors:reactorcasing>, <ore:cableRedNet>, <bigreactors:reactorcasing>]]);
+recipes.addShaped(<gregtech:gt.metaitem.01:23019> * 2, [[<ore:stickAluminum>, <ore:stickAluminum>]]);
+recipes.addShaped(<gregtech:gt.metaitem.01:11019> * 2, [[<ore:ingotAluminum>, <ore:ingotAluminum>]]);
+recipes.addShaped(<minecraft:wool:15> * 8, [[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>], [<ore:blockWool>, <ore:dyeBlack>, <ore:blockWool>], [<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]]);

@@ -13,7 +13,7 @@ Warning
 
 Warning 2 
    -this pack contains gregtech it has been reduced vastly
-   -in difficulty by unerfing non greggy things and is not 
+   -in difficulty by un-nerfing non greggy things and is not 
    -required for pack progression
 
 Check us out @ https://minecraft.curseforge.com/projects/unlimitedtech

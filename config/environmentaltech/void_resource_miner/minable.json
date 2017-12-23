@@ -248,106 +248,34 @@
       "weight": 10
     },
     {
-      "id": "chisel:marbleextra",
-      "meta": 7,
+      "id": "gregtech:gt.blockgranites",
+      "meta": 8,
       "focusColor": "white",
       "weight": 10
     },
     {
-      "id": "tconstruct:slime_dirt",
+      "id": "gregtech:gt.blockgranites",
       "meta": 0,
-      "focusColor": "green",
-      "weight": 2
+      "focusColor": "white",
+      "weight": 10
     },
     {
-      "id": "tconstruct:slime_dirt",
-      "meta": 1,
-      "focusColor": "blue",
-      "weight": 2
-    },
-    {
-      "id": "tconstruct:slime_dirt",
-      "meta": 2,
-      "focusColor": "purple",
-      "weight": 2
-    },
-    {
-      "id": "tconstruct:slime_dirt",
-      "meta": 3,
-      "focusColor": "orange",
-      "weight": 2
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 1,
-      "focusColor": "green",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 2,
-      "focusColor": "blue",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 3,
-      "focusColor": "purple",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 4,
-      "focusColor": "orange",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 6,
-      "focusColor": "green",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 7,
-      "focusColor": "blue",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
+      "id": "gregtech:gt.blockstones",
       "meta": 8,
-      "focusColor": "purple",
-      "weight": 1
+      "focusColor": "white",
+      "weight": 10
     },
     {
-      "id": "tconstruct:slime_grass",
-      "meta": 9,
-      "focusColor": "orange",
-      "weight": 1
+      "id": "gregtech:gt.blockstones",
+      "meta": 0,
+      "focusColor": "white",
+      "weight": 10
     },
     {
-      "id": "tconstruct:slime_grass",
-      "meta": 11,
-      "focusColor": "green",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 12,
-      "focusColor": "blue",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 13,
-      "focusColor": "purple",
-      "weight": 1
-    },
-    {
-      "id": "tconstruct:slime_grass",
-      "meta": 14,
-      "focusColor": "orange",
-      "weight": 1
+      "id": "chisel:marbleextra",
+      "meta": 7,
+      "focusColor": "white",
+      "weight": 10
     },
     {
       "id": "appliedenergistics2:sky_stone_block",

@@ -137,11 +137,6 @@
       "weight": 6
     },
     {
-      "oreName": "oreMithril",
-      "focusColor": "light_blue",
-      "weight": 6
-    },
-    {
       "oreName": "oreSulfur",
       "focusColor": "yellow",
       "weight": 10
@@ -175,11 +170,6 @@
       "oreName": "oreApatite",
       "focusColor": "light_blue",
       "weight": 10
-    },
-    {
-      "oreName": "oreDraconium",
-      "focusColor": "purple",
-      "weight": 6
     },
     {
       "oreName": "oreGraphite",
@@ -224,16 +214,6 @@
     {
       "oreName": "oreGarnet",
       "focusColor": "orange",
-      "weight": 6
-    },
-    {
-      "oreName": "oreHeliodore",
-      "focusColor": "yellow",
-      "weight": 6
-    },
-    {
-      "oreName": "oreBeryl",
-      "focusColor": "green",
       "weight": 6
     },
     {
@@ -347,21 +327,6 @@
       "weight": 6
     },
     {
-      "oreName": "oreChaos",
-      "focusColor": "white",
-      "weight": 6
-    },
-    {
-      "oreName": "oreEnderEssence",
-      "focusColor": "green",
-      "weight": 6
-    },
-    {
-      "oreName": "oreResonating",
-      "focusColor": "brown",
-      "weight": 6
-    },
-    {
       "oreName": "oreZinc",
       "focusColor": "pink",
       "weight": 9
@@ -372,19 +337,214 @@
       "weight": 6
     },
     {
-      "oreName": "oreTungsten",
+      "oreName": "oreTungstate",
       "focusColor": "black",
       "weight": 8
     },
     {
       "oreName": "oreOsmium",
-      "focusColor": "light_gray",
+      "focusColor": "cyan",
       "weight": 8
     },
     {
       "oreName": "oreSalt",
       "focusColor": "white",
       "weight": 3
+    },
+    {
+      "oreName": "oreRutile",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreDilithium",
+      "focusColor": "white",
+      "weight": 20
+    },
+    {
+      "oreName": "oreBandedIron",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreChalcopyrite",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreCobaltite",
+      "focusColor": "blue",
+      "weight": 20
+    },
+    {
+      "oreName": "oreAlmandine",
+      "focusColor": "red",
+      "weight": 20
+    },
+    {
+      "oreName": "oreQuartzite",
+      "focusColor": "lime",
+      "weight": 20
+    },
+    {
+      "oreName": "oreGalena",
+      "focusColor": "purple",
+      "weight": 20
+    },
+    {
+      "oreName": "oreBrownLimonite",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreNaquadah",
+      "focusColor": "black",
+      "weight": 4
+    },
+    {
+      "oreName": "oreCooperite",
+      "focusColor": "yellow",
+      "weight": 4
+    },
+    {
+      "oreName": "oreGrossular",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreIlmenite",
+      "focusColor": "black",
+      "weight": 20
+    },
+    {
+      "oreName": "oreMolybdenite",
+      "focusColor": "gray",
+      "weight": 20
+    },
+    {
+      "oreName": "oreSodalite",
+      "focusColor": "blue",
+      "weight": 20
+    },
+    {
+      "oreName": "oreSpessartine",
+      "focusColor": "red",
+      "weight": 20
+    },
+    {
+      "oreName": "orePhosphate",
+      "focusColor": "yellow",
+      "weight": 20
+    },
+    {
+      "oreName": "oreBeryllium",
+      "focusColor": "green",
+      "weight": 20
+    },
+    {
+      "oreName": "oreRockSalt",
+      "focusColor": "gray",
+      "weight": 30
+    },
+    {
+      "oreName": "oreMagnetite",
+      "focusColor": "black",
+      "weight": 20
+    },
+    {
+      "oreName": "orePyrolusite",
+      "focusColor": "gray",
+      "weight": 20
+    },
+    {
+      "oreName": "orePyrope",
+      "focusColor": "purple",
+      "weight": 20
+    },
+    {
+      "oreName": "oreScheelite",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreTetrahedrite",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "orePitchblende",
+      "focusColor": "lime",
+      "weight": 20
+    },
+    {
+      "oreName": "oreYellowLimonite",
+      "focusColor": "yellow",
+      "weight": 20
+    },
+    {
+      "oreName": "oreSoapstone",
+      "focusColor": "green",
+      "weight": 20
+    },
+    {
+      "oreName": "oreTalc",
+      "focusColor": "green",
+      "weight": 20
+    },
+    {
+      "oreName": "oreGlauconite",
+      "focusColor": "green",
+      "weight": 20
+    },
+    {
+      "oreName": "oreVanadiumMagnetite",
+      "focusColor": "black",
+      "weight": 20
+    },
+    {
+      "oreName": "oreBarite",
+      "focusColor": "gray",
+      "weight": 20
+    },
+    {
+      "oreName": "oreMonazite",
+      "focusColor": "black",
+      "weight": 20
+    },
+    {
+      "oreName": "oreBastnasite",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "orePyrite",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreStibnite",
+      "focusColor": "black",
+      "weight": 20
+    },
+    {
+      "oreName": "oreUraninite",
+      "focusColor": "black",
+      "weight": 20
+    },
+    {
+      "oreName": "oreWulfenite",
+      "focusColor": "brown",
+      "weight": 20
+    },
+    {
+      "oreName": "oreSphalerite",
+      "focusColor": "yellow",
+      "weight": 20
+    },
+    {
+      "oreName": "oreOlivine",
+      "focusColor": "lime",
+      "weight": 20
     }
   ]
 }

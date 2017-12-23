@@ -1,3 +1,14 @@
+#ordict
+
+val myEntry = <ore:dyeBlack>;
+myEntry.add(<actuallyadditions:itemdust:6>);
+myEntry.add(<enderio:itempowderingot:0>);
+myEntry.add(<ic2:dust:2>);
+myEntry.add(<railcraft:dust:5>);
+myEntry.add(<thermalfoundation:material:768>);
+myEntry.add(<railcraft:dust:3>);
+myEntry.add(<thermalfoundation:material:769>);
+
 #removals
 recipes.remove(<malisisdoors:rustyHatch>);
 recipes.remove(<extrautils2:itembuilderswand>);
@@ -20,6 +31,16 @@ recipes.remove(<astralsorcery:BlockMarble:1> * 4);
 recipes.remove(<minecraft:ender_pearl>);
 recipes.remove(<malisisdoors:rustyHandle>);
 recipes.remove(<opencomputers:material:5>);
+
+#ToolTips
+<architecturecraft:sawbench:0>.addTooltip(format.red("DO NOT USE ARCHITECTURECRAFT BLOCKS IN ROCKETS"));
+<architecturecraft:shape:0>.addTooltip(format.red("DO NOT USE ARCHITECTURECRAFT BLOCKS IN ROCKETS"));
+<minefactoryreloaded:machine_2:0>.addTooltip(format.red("Use Void Ore/Resource Miners or Orbital Laser Drill Instead"));
+<minefactoryreloaded:machine_2:1>.addTooltip(format.red("Use Void Ore/Resource Miners or Orbital Laser Drill Instead"));
+<gregtech:gt.metaitem.01:11083>.addTooltip("Requires GT Blast Furnace or");
+<gregtech:gt.metaitem.01:11083>.addTooltip("Immersive Engineering Arc Furnace");
+
+
 
 #Chainmail armor
 recipes.addShaped(<minecraft:chainmail_leggings>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<minecraft:leather_leggings>,<ore:ingotSteel>],[<ore:ingotSteel>,null,<ore:ingotSteel>]]);
@@ -70,11 +91,7 @@ recipes.addShaped(<minecraft:diamond_chestplate>,[[<ore:gemDiamond>,<minecraft:g
 <mekanismtools:GlowstonePaxel>.addTooltip("These are Simalar to Aiots");
 <mekanismtools:SteelPaxel>.addTooltip("These are Simalar to Aiots");
 
-#Nerfs
-recipes.removeShaped(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket>,[[null,null,null],[<ore:plateIron>,null,<ore:plateIron>],[null,<ore:plateIron>,null]]);
-
-#bonus	
+#bonus
 recipes.addShaped(<minecraft:end_portal_frame>,[[<randomthings:stableEnderpearl>,<randomthings:stableEnderpearl>,<randomthings:stableEnderpearl>],[<randomthings:stableEnderpearl>,<minecraft:ender_pearl>,<randomthings:stableEnderpearl>],[<randomthings:stableEnderpearl>,<randomthings:stableEnderpearl>,<randomthings:stableEnderpearl>]]);
 
 #Tools
@@ -311,14 +328,13 @@ recipes.addShaped(<craftingitems:iridiumPlating> * 32, [[<ore:plateIridium>, <or
 recipes.addShaped(<craftingitems:copperPlating> * 32, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:plateCopper>, <ore:frameGtIron>, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
 recipes.addShaped(<craftingitems:goldPlating> * 32, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <ore:frameGtIron>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 recipes.addShaped(<craftingitems:aluminumPlating> * 32, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:frameGtIron>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
+recipes.addShaped(<craftingitems:aluminumPlating> * 32, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:frameGtIron>, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
 recipes.addShaped(<gregtech:gt.blockmachines:4128> * 2, [[<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>], [<ore:stickAnyIron>, null, <ore:stickAnyIron>], [<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>]]);
 recipes.addShaped(<craftingitems:boardTier1> * 2, [[<craftingitems:transistor>, <craftingitems:chipBasic>, <craftingitems:transistor>], [<craftingitems:transistor>, <craftingitems:boardEtched>, <craftingitems:transistor>], [<ore:wireCopper>, <craftingitems:chipBasic>, <ore:wireCopper>]]);
 recipes.addShaped(<craftingitems:boardEtched>, [[<minecraft:clay_ball>, <minecraft:gunpowder>], [<craftingitems:copperFoil>, <craftingitems:copperFoil>]]);
 recipes.addShaped(<craftingitems:chipBasic>, [[null, <ore:itemRubber>, null], [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>], [<ore:nuggetSilicon>, <ore:nuggetSilicon>, <ore:nuggetSilicon>]]);
 recipes.addShaped(<craftingitems:transistor>, [[null, <ore:itemRubber>, null], [<minecraft:paper>, <ore:nuggetSilicon>, <ore:paperEmpty>], [null, <ore:wireCopper>, null]]);
 recipes.addShaped(<craftingitems:copperFoil> * 2, [[<ore:slabStone>], [<ore:ingotCopper>], [<ore:slabStone>]]);
-recipes.addShaped(<craftingitems:wireCopper>, [[<craftingitems:clayMoldWire>]]);
-recipes.addShaped(<craftingitems:crudeSilicon>, [[<craftingitems:clayMoldSilicon>]]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:2532>, [<ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>, <ore:nuggetEnderpearl>]);
 recipes.addShapeless(<minecraft:diamond_block>, [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]);
 recipes.addShaped(<chisel:marbleextra:7> * 4, [[<gregtech:gt.blockstones>, <gregtech:gt.blockstones>], [<gregtech:gt.blockstones>, <gregtech:gt.blockstones>]]);
@@ -338,11 +354,15 @@ recipes.addShapeless(<minecraft:lapis_block>, [<ore:dyeBlue>, <ore:dyeBlue>, <or
 
 recipes.addShaped(<gregtech:gt.blockmachines:66>, [[<gregtech:gt.blockmachines:16>], [<ore:blockGlassColorless>]]);
 recipes.addShaped(<gregtech:gt.blockmachines:56>, [[<ore:blockGlassColorless>], [<gregtech:gt.blockmachines:16>]]);
-recipes.addShaped(<craftingitems:aluminumPlating> * 32, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:frameGtIron>, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
 recipes.addShaped(<gregtech:gt.metaitem.01:11020> * 2, [[<libvulpes:productingot:3>, <libvulpes:productingot:3>]]);
 recipes.addShaped(<gregtech:gt.metaitem.01:11020>, [[<libvulpes:productingot:3>]]);
 recipes.addShaped(<ic2:crafting:2>, [[<ore:circuitAdvanced>]]);
 recipes.addShaped(<bigreactors:reactorrednetport>, [[<bigreactors:reactorcasing>, <ore:cableRedNet>, <bigreactors:reactorcasing>], [<ore:cableRedNet>, <ore:ingotGold>, <ore:cableRedNet>], [<bigreactors:reactorcasing>, <ore:cableRedNet>, <bigreactors:reactorcasing>]]);
 recipes.addShaped(<gregtech:gt.metaitem.01:23019> * 2, [[<ore:stickAluminum>, <ore:stickAluminum>]]);
 recipes.addShaped(<gregtech:gt.metaitem.01:11019> * 2, [[<ore:ingotAluminum>, <ore:ingotAluminum>]]);
-recipes.addShaped(<minecraft:wool:15> * 8, [[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>], [<ore:blockWool>, <ore:dyeBlack>, <ore:blockWool>], [<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]]);
+
+recipes.addShaped(<thermalfoundation:fertilizer:1> * 12, [[<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>], [<thermalfoundation:fertilizer>, <ore:dustApatite>, <thermalfoundation:fertilizer>], [<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>]]);
+recipes.addShaped(<thermalfoundation:fertilizer:1> * 4, [[<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>], [<thermalfoundation:fertilizer>, <ore:dustPhosphate>]]);
+recipes.addShaped(<thermalfoundation:fertilizer> * 24, [[<ore:dustCarbon>, <ore:dustCarbon>], [<ore:itemSlag>, <ore:dustPotassium>]]);
+recipes.addShaped(<minecraft:golden_apple:1>, [[<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>], [<minecraft:gold_block>, <ore:listAllfruit>, <minecraft:gold_block>], [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>]]);
+recipes.addShaped(<minecraft:bread>, [[<ore:itemWheat>, <ore:itemWheat>, <ore:itemWheat>]]);

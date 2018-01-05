@@ -366,3 +366,5 @@ recipes.addShaped(<thermalfoundation:fertilizer:1> * 4, [[<thermalfoundation:fer
 recipes.addShaped(<thermalfoundation:fertilizer> * 24, [[<ore:dustCarbon>, <ore:dustCarbon>], [<ore:itemSlag>, <ore:dustPotassium>]]);
 recipes.addShaped(<minecraft:golden_apple:1>, [[<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>], [<minecraft:gold_block>, <ore:listAllfruit>, <minecraft:gold_block>], [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>]]);
 recipes.addShaped(<minecraft:bread>, [[<ore:itemWheat>, <ore:itemWheat>, <ore:itemWheat>]]);
+
+recipes.addShapeless(<ic2:resource:6>, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);

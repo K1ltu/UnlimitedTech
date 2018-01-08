@@ -1,8 +1,6 @@
 #ordict
 
 val myEntry = <ore:dyeBlack>;
-myEntry.add(<actuallyadditions:itemdust:6>);
-myEntry.add(<enderio:itempowderingot:0>);
 myEntry.add(<ic2:dust:2>);
 myEntry.add(<railcraft:dust:5>);
 myEntry.add(<thermalfoundation:material:768>);
@@ -31,6 +29,9 @@ recipes.remove(<astralsorcery:BlockMarble:1> * 4);
 recipes.remove(<minecraft:ender_pearl>);
 recipes.remove(<malisisdoors:rustyHandle>);
 recipes.remove(<opencomputers:material:5>);
+recipes.remove(<gregtech:gt.metaitem.01:11083>);
+recipes.removeShaped(<ic2:cable> * 3, [[<ore:craftingToolWireCutter>, <ore:plateTin>]]);
+
 
 #ToolTips
 <architecturecraft:sawbench:0>.addTooltip(format.red("DO NOT USE ARCHITECTURECRAFT BLOCKS IN ROCKETS"));
@@ -368,3 +369,4 @@ recipes.addShaped(<minecraft:golden_apple:1>, [[<minecraft:gold_block>, <minecra
 recipes.addShaped(<minecraft:bread>, [[<ore:itemWheat>, <ore:itemWheat>, <ore:itemWheat>]]);
 
 recipes.addShapeless(<ic2:resource:6>, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+recipes.addShaped(<minecraft:bowl>, [[<ore:plankWood>, null, <ore:plankWood>], [null, <ore:plankWood>, null]]);
